@@ -10,7 +10,7 @@
 
 
 %-------------------State Estimation Evaluation----------------------------
- if user.radius == 1
+ if user.evaluation == 1
     [wls, bp] = c2_evaluation(wls, bp);
  end    
 %--------------------------------------------------------------------------
