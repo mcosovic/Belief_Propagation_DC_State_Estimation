@@ -58,12 +58,12 @@ Note: The virtual factor node is a singly-connected factor node used if the vari
  - dc_ieee118_177_9: IEEE 118-bus test case with 118 buses, 177 lines and 9 transformes 
  - dc_ieee300_304_107 IEEE 300-bus test case with 300 buses, 304 lines and 107 transformes
  - dc_data1354_1757_234: power system with 1354 buses, 1757 lines and 234 transformes
- - dc_toy_3_3_0: toy example with 3 buses and 3 lines given in [arxiv.org](https://arxiv.org/pdf/1811.08355.pdf)
+ - dc_toy_3_3_0: toy example with 3 buses and 3 lines given in [Appendix B](https://arxiv.org/pdf/1811.08355.pdf)
 
 
 ## More information: 
 - M. Cosovic and D. Vukobratovic, "Distributed Gauss-Newton Method for State Estimation Using Belief Propagation," in IEEE Transactions on  Power Systems, vol. 34, no. 1, pp. 648-658, Jan. 2019. [arxiv.org](https://arxiv.org/pdf/1702.05781.pdf)
-- M. Cosovic, "Design and Analysis of Distributed State Estimation Algorithms Based on Belief Propagation and Applications in Smart Grids." arXiv preprint arXiv:1811.08355 (2018). [Appendix B](https://arxiv.org/pdf/1811.08355.pdf)
+- M. Cosovic, "Design and Analysis of Distributed State Estimation Algorithms Based on Belief Propagation and Applications in Smart Grids." arXiv preprint arXiv:1811.08355 (2018). [arxiv.org](https://arxiv.org/pdf/1811.08355.pdf)
 
 ## Citations
 If you have used the model in publications, we would appreciate citations to the following paper:
