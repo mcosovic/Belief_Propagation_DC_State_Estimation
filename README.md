@@ -66,4 +66,5 @@ Note: The virtual factor node is a singly-connected factor node used if the vari
 
 ## Citations
 If you have used the model in publications, we would appreciate citations to the following paper:
+
 M. Cosovic and D. Vukobratovic, "Fast real-time DC state estimation in electric power systems using belief propagation," 2017 IEEE International Conference on Smart Grid Communications (SmartGridComm), Dresden, 2017, pp. 207-212.
