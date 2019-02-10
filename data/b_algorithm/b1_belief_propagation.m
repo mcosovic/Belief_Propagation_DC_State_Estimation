@@ -28,6 +28,7 @@
  
  m_fvp = [];
  stopi = m_vf;
+ sivar = [bp.Nmsg 1];
  
  bp.pre_time = toc + bp.pre_time;
 %-------------------------------------------------------------------------- 
@@ -62,10 +63,10 @@
 
 
 %-----------------Messages v -> f - to Indirected Nodes--------------------
- v_vf = 1 ./ (accumarray(bp.coli, v_fvi(bp.cole)) + bp.Lv_fv);
+ v_vf = 1 ./ (accumarray(bp.coli, v_fvi(bp.cole), sivar) + bp.Lv_fv);
  
  cmv  = m_fv .* v_fvi;
- m_vf = (accumarray(bp.coli, cmv(bp.cole)) + bp.Lm_fv) .* v_vf;
+ m_vf = (accumarray(bp.coli, cmv(bp.cole), sivar) + bp.Lm_fv) .* v_vf;
 %--------------------------------------------------------------------------
 
  end
