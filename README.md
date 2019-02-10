@@ -20,16 +20,16 @@ Further, the solution to the problem can be found via maximization of the likeli
 ## Input Data
 Input data is located in the dataSE.mat file, and can be created using MATLAB package Measurement_Configuration. The structure of the input keeps the general format of the State_Estimation MATLAB package and contains:
 1. dataSE.system - contains general information about the power system:
-   - bus (bus number, initial value of voltage magnitude and angle, shunt element data)
-   - line (from bus to bus, resistance, inductance, charging susceptance)
-   - transformer (from bus to bus, resistance, inductance, tap ratio)
-   - slack (bus number, angle value)
-   - baseMVA
-2. dataSE.legacy - contains legacy measurements;
-   - flow (from bus to bus, measurement value, turn on/off, standard deviation, exact value if exists)
-   - injection (bus, measurement value, turn on/off, standard deviation, exact value if exists)
-3. dataSE.pmu - contains phasor measurements;
-   - voltage (bus, measurement value, turn on/off, standard deviation, exact value if exists)
+   - bus (bus number, initial value of voltage magnitude and angle, shunt element data);
+   - line (from bus to bus, resistance, inductance, charging susceptance);
+   - transformer (from bus to bus, resistance, inductance, tap ratio);
+   - slack (bus number, angle value);
+   - baseMVA;
+2. dataSE.legacy - contains legacy measurements:
+   - flow (from bus to bus, measurement value, turn on/off, standard deviation, exact value if exists);
+   - injection (bus, measurement value, turn on/off, standard deviation, exact value if exists);
+3. dataSE.pmu - contains phasor measurements:
+   - voltage (bus, measurement value, turn on/off, standard deviation, exact value if exists);
 
 
  ## User Options
