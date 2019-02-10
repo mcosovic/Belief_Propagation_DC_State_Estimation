@@ -1,4 +1,4 @@
-# Gaussian Belief Propagation Algorithm for the Linear DC State Estimation Model 
+# Gaussian Belief Propagation Algorithm for the DC State Estimation Model 
 
 ## The System Model
 We present the solution of the DC state estimation (SE) problem using the Gaussian belief propagation (BP) algorithm. The DC SE model is described by the system of linear functions with real coefficients and variables. The DC model is obtained by linearisation of the non-linear model, and ignores the reactive powers and transmission losses and takes into account only the active powers. Therefore, the DC SE takes only bus voltage angles as state variables.
@@ -18,18 +18,18 @@ where **H** is the Jacobian matrix of linear functions or the coefficient matrix
 Further, the solution to the problem can be found via maximization of the likelihood function which is defined via likelihoods of independent measurements, and that can be efficiently solved utilizing factor graphs and the Gaussian BP algorithm. 
 
 ## Input Data
-Input data are located in the dataSE.mat file, and can be created using MATLAB package Measurement_Configuration. The structure of the input keeps the general format from of the State_Estimation MATLAB package and contains:
+Input data is located in the dataSE.mat file, and can be created using MATLAB package Measurement_Configuration. The structure of the input keeps the general format of the State_Estimation MATLAB package and contains:
 1. dataSE.system - contains general information about the power system:
-   - bus (bus number, initial value of voltage magnitude and angle, shunt element data)
-   - line (from bus to bus, resistance, inductance, charging susceptance)
-   - transformer (from bus to bus, resistance, inductance, tap ratio)
-   - slack (bus number, angle value)
-   - baseMVA
-2. dataSE.legacy - contains legacy measurements;
-   - flow (from bus to bus, measurement value, turn on/off, standard deviation, exact value if exists)
-   - injection (bus, measurement value, turn on/off, standard deviation, exact value if exists)
-3. dataSE.pmu - contains phasor measurements;
-   - voltage (bus, measurement value, turn on/off, standard deviation, exact value if exists)
+   - bus (bus number, initial value of voltage magnitude and angle, shunt element data);
+   - line (from bus to bus, resistance, inductance, charging susceptance);
+   - transformer (from bus to bus, resistance, inductance, tap ratio);
+   - slack (bus number, angle value);
+   - baseMVA;
+2. dataSE.legacy - contains legacy measurements:
+   - flow (from bus to bus, measurement value, turn on/off, standard deviation, exact value if exists);
+   - injection (bus, measurement value, turn on/off, standard deviation, exact value if exists);
+3. dataSE.pmu - contains phasor measurements:
+   - voltage (bus, measurement value, turn on/off, standard deviation, exact value if exists);
 
 
  ## User Options
@@ -64,3 +64,7 @@ Note: The virtual factor node is a singly-connected factor node used if the vari
 - M. Cosovic and D. Vukobratovic, "Distributed Gauss-Newton Method for State Estimation Using Belief Propagation," in IEEE Transactions on  Power Systems, vol. 34, no. 1, pp. 648-658, Jan. 2019. [arxiv.org](https://arxiv.org/pdf/1702.05781.pdf)
 - M. Cosovic, "Design and Analysis of Distributed State Estimation Algorithms Based on Belief Propagation and Applications in Smart Grids." arXiv preprint arXiv:1811.08355 (2018). [arxiv.org](https://arxiv.org/pdf/1811.08355.pdf)
 
+## Citations
+If you have used the model in publications, we would appreciate citations to the following paper:
+
+M. Cosovic and D. Vukobratovic, "Fast real-time DC state estimation in electric power systems using belief propagation," 2017 IEEE International Conference on Smart Grid Communications (SmartGridComm), Dresden, 2017, pp. 207-212.
