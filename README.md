@@ -64,3 +64,6 @@ Note: The virtual factor node is a singly-connected factor node used if the vari
 - M. Cosovic and D. Vukobratovic, "Distributed Gauss-Newton Method for State Estimation Using Belief Propagation," in IEEE Transactions on  Power Systems, vol. 34, no. 1, pp. 648-658, Jan. 2019. [arxiv.org](https://arxiv.org/pdf/1702.05781.pdf)
 - M. Cosovic, "Design and Analysis of Distributed State Estimation Algorithms Based on Belief Propagation and Applications in Smart Grids." arXiv preprint arXiv:1811.08355 (2018). [arxiv.org](https://arxiv.org/pdf/1811.08355.pdf)
 
+## Citations
+If you have used the model in publications, we would appreciate citations to the following paper:
+M. Cosovic and D. Vukobratovic, "Fast real-time DC state estimation in electric power systems using belief propagation," 2017 IEEE International Conference on Smart Grid Communications (SmartGridComm), Dresden, 2017, pp. 207-212.
