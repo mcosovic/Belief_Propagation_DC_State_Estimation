@@ -18,7 +18,7 @@ where **H** is the Jacobian matrix of linear functions or the coefficient matrix
 Further, the solution to the problem can be found via maximization of the likelihood function which is defined via likelihoods of independent measurements, and that can be efficiently solved utilizing factor graphs and the Gaussian BP algorithm. 
 
 ## Input Data
-Input data are located in the dataSE.mat file, and can be created using MATLAB package Measurement_Configuration. The structure of the input keeps the general format from of the State_Estimation MATLAB package and contains:
+Input data is located in the dataSE.mat file, and can be created using MATLAB package Measurement_Configuration. The structure of the input keeps the general format from of the State_Estimation MATLAB package and contains:
 1. dataSE.system - contains general information about the power system:
    - bus (bus number, initial value of voltage magnitude and angle, shunt element data)
    - line (from bus to bus, resistance, inductance, charging susceptance)
